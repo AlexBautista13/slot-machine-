@@ -1,0 +1,138 @@
+/* CSS reset { */
+    body,div,h1,button,p{margin:0;padding:0}
+    button{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+    a:active,a:focus {outline: 0}
+    /* } */
+    
+    body, input, select, textarea {font:18px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;}
+    body {
+      background:#ddd url(https://subtlepatterns.com/patterns/texturetastic_gray.png);
+    }
+    
+    h1 {
+      text-align:center;
+      margin-top: 20px;
+      font-size: 1.75em;
+      font-weight: normal;
+      color: #bbb;
+    }
+    
+    h1, a {
+      text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    }
+    
+    #sm {
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+    
+      width: 540px;
+      margin: 10px auto 20px;
+      padding: 20px;
+      border-radius: 50px;
+    }
+    
+    #sm, .lever button {box-shadow: 0 3px 9px rgba(0,0,0,.25)}
+      .group, .reel, .lever {display: inline-block;}
+      .group, .lever {
+    background: rgb(252,234,187);
+    background: -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(50%,rgba(252,205,77,1)), color-stop(51%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1)));
+    background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+    background: -o-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+    background: -ms-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+    background: linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 );
+      }
+    
+    .group {
+      border-radius: 30px;
+      padding: 20px 0 20px 20px;
+    }
+    
+      .reel {
+    background: #fff;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+    
+        text-align:center;
+        float: left;
+        padding:0 10px;
+        width: 80px;
+        height: 100px;
+        overflow: hidden;
+        margin-right: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 7px rgba(0,0,0,.3) inset, 0 0px 1px rgba(0,0,0,.2) inset;
+      }
+        .reel div {
+          position: relative;
+          top: -48px;
+        }
+        .reel p {
+          font-weight: bold;
+          height: 60px;
+          margin-top: 10px;
+        }
+        .reel p:nth-child(1) {color:#c60}
+        .reel p:nth-child(2) {color:#690}
+        .reel p:nth-child(3) {color:#630}
+    
+    .lever {
+      float: right;
+      padding-right: 20px;
+    }
+      .lever button {
+        text-align:center;
+        border-radius: 10px;
+        line-height: 100px;
+        width: 100px;
+        border: none;
+        font-size:1.8em;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+    background: rgb(252,255,244);
+    background: -moz-linear-gradient(top, rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(100%,rgba(233,233,206,1)));
+    background: -webkit-linear-gradient(top, rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+    background: -o-linear-gradient(top, rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+    background: -ms-linear-gradient(top, rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+    background: linear-gradient(top, rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 );
+      }
+      .lever button:active {
+        color: #900;
+        box-shadow: 0 1px 4px rgba(0,0,0,.3);
+        margin: 2px 0 -2px;
+      }
+    
+    .msg {
+      text-align: center;
+      color: #bbb;
+      font-size:1.8em;
+      padding: 25px 0 5px;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.5);
+    }
+    
+    a {
+      color: #222cff;
+      margin-top: 15px;
+      text-align: center;
+      display: block;
+      text-decoration:none;
+    }
+    
+    a:hover {
+      color:#ff4c00
+    }
